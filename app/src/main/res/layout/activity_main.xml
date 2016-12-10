@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zhengliang.com.qqzonetopbar.MainActivity">
+
+    <zhengliang.com.qqzonetopbar.QqZoneTopBarListView
+        android:id="@+id/qq_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+    </zhengliang.com.qqzonetopbar.QqZoneTopBarListView>
+
+    <!--topBar-->
+    <include layout="@layout/top_bar" />
+</RelativeLayout>
